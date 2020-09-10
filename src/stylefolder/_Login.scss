@@ -1,0 +1,55 @@
+    .Login{
+    background: -webkit-linear-gradient(left,  rgb(17, 133, 156),  rgb(62, 156, 175));
+    margin-top: 0%;
+    padding: 8%;
+    height: 100vh;
+   .Login-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.Login-right{
+    background: #f8f9fa;
+    border-top-left-radius: 15% 60%;
+    border-bottom-left-radius: 15% 60%;
+    height: 65vh;
+    padding-top: 20px;
+    padding-left: -100px;
+}
+}
+.login{
+    margin-left: 300px;
+    margin-top: 10px;
+     color: #188fa7ff;
+     font-size: 13px;
+}
+    h2{
+        text-align: center;
+        color: #188fa7ff;
+        }
+        
+    
+    .btnLogin{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background:  rgba(24, 143, 167, 0.801);
+    color: #fff;
+    font-weight: 400;
+    width: 40%;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.btnLogin:hover {
+  color: #fff;
+  background-color:  #188fa7ff;
+  border-color:  #188fa7ff;
+  text-decoration: none;
+}
+
+.Login-right input::placeholder{
+   font-size: small;
+    color:  #188fa7ff;
+
+}

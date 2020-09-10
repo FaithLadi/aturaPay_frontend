@@ -1,0 +1,62 @@
+.button{
+color: #fff;
+background-color:  #29a8c2;
+border-color:  #29a8c2;
+font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+padding: 1rem;
+display: inline-block;
+ font-weight: 400;
+ text-align: center;
+vertical-align: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+line-height: 1.5;
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, 
+border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+.btn-xl {
+  width: 20%;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+  text-decoration: none;
+}
+.btn-xl:hover {
+  color: #fff;
+  background-color: #188fa7ff;
+  border-color: #188fa7ff;
+  text-decoration: none;
+}
+
+.btn-xl:focus, .btn-xl.focus {
+  color: #fff;
+  background-color: #188fa7ff;
+  border-color: #188fa7ff;
+  box-shadow: 0 0 0 0.2rem #167285;
+}
+.btn-xl.disabled, .btn-xl:disabled {
+  color: #fff;
+  background-color: #188fa7ff;
+  border-color: #188fa7ff;
+}
+.btn-xl:not(:disabled):not(.disabled):active, .btn-xl:not(:disabled):not(.disabled).active, 
+.show > .btn-xl.dropdown-toggle {
+  color: #fff;
+  background-color: rgb(22, 124, 145);
+  border-color: #188fa7ff;
+}
+.btn-xl:not(:disabled):not(.disabled):active:focus, .btn-xl:not(:disabled):not(.disabled).active:focus, 
+.show > .btn-xl.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem #167285;
+}
+
+@media (max-width: 500px) {
+	.btn-xl {
+		width: 70%;
+	}
+}
